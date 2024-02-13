@@ -1,0 +1,16 @@
+/* .carousel-item{
+    height: 650px !important;
+  } */
+  
+  .carousel-caption{
+    top: 170px ;
+    left: 100px;
+  
+  }
+  
+  .img{
+    width: 64px;
+    height: 64px;
+    border:15px solid black;
+  border-radius: 5px;
+  }
