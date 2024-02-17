@@ -36,3 +36,31 @@
     transform: scale(.80);
 }
 
+#section2{
+    padding: 2% 0;
+}
+
+.sh{
+    text-shadow: 0 0 5px rgba(62, 5, 196, 0.651);
+}
+
+.btn{
+    background-color: #e7e71c;
+    transition: all .2s;
+}
+
+.btn:hover{
+    background-color: #f3d877;
+    transform: scale(.95);
+}
+
+.lorem::first-letter{
+    color: red;
+    font-size: large;
+}
+
+.lorem::selection{
+    background-color: aliceblue;
+    color: red;
+}
+
