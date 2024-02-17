@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #144579;
+}
+
+.breadcrumb-item:hover a{
+    color: #3f5f81;
+    text-shadow: 0 0 5px rgb(70, 9, 70);
+}
+
+
+
+.banner{
+    background-image: url(../image-hajar/banner-color.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg{
+    background-color: #f95738;
+    color: #083d77 !important;
+
+}
+
+.pic{
+    transition: all .5s;
+}
+
+.pic:hover{
+    transform: scale(.80);
+}
+
