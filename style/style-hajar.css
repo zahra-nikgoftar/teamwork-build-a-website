@@ -8,12 +8,12 @@
     box-sizing: border-box
 }
 
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 .menu {
     background: url(../img/mahdi\ sub\ menu\ bg1.jpg) ;
     background-size: cover;
 background-position: top;
-}
+} */
 
 
 
@@ -31,9 +31,9 @@ background-position: top;
 
 
 .banner{
-    background-image: url(../image-hajar/banner-color.png);
+    background-image: url(../image-hajar/banner-edite.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .bg{
@@ -58,23 +58,55 @@ background-position: top;
     text-shadow: 0 0 5px rgba(62, 5, 196, 0.651);
 }
 
-.btn{
+.button{
     background-color: #e7e71c;
     transition: all .2s;
 }
 
-.btn:hover{
-    background-color: #f3d877;
+.button:hover{
+    background-color: #e7e71cbe;
     transform: scale(.95);
 }
 
-.lorem::first-letter{
-    color: red;
-    font-size: large;
+p::selection{
+    background-color: aliceblue;
+    color: rgb(252, 135, 1);
 }
 
-.lorem::selection{
-    background-color: aliceblue;
-    color: red;
+/*  */
+.overlay0{
+    position: relative;
 }
+
+.overlay{
+    width: 100%;
+    position: absolute;
+    top: 50;
+    cursor: pointer;
+    background: linear-gradient(rgba(255, 123, 0, 0.767), #ff9900);
+    opacity: 0;
+    transition: all 1s;
+    margin: auto;
+    box-shadow: 2px 3px 10px 5px rgba(43, 18, 8, 0.678);
+}
+
+.overlay0:hover .overlay{
+    opacity: 1;
+    transform: translateY(-100%);
+}
+
+.overlay0:hover img{
+    transform: scale(1.1);
+}
+
+.rot{
+    transform: rotate(-180deg);
+}
+
+#section3 .btn:hover{
+    background-color: #e7951a;
+}
+
+
+
 
