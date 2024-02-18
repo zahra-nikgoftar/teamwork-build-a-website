@@ -1,0 +1,128 @@
+/* .first-carousel{
+    height: 600px !important;
+    
+  } */
+  .carousel-caption{
+    margin-bottom: 80px;
+  }
+ 
+  
+  .img{
+    width: 150px;
+    height: 120px;
+  border-radius: 5px;
+  margin: 2px;
+  }
+
+  .card{
+    background-color: #fdd995;
+    border: 2px solid #fdd995;
+    box-shadow: 3px 3px 3px #f5ab3c;
+  }
+
+
+
+  .form{
+    background-color: #facf7e;
+    border-radius: 1px solid #facf7e;
+  }
+  .immg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .overlay0{
+    position: relative;
+}
+
+.overlay{
+    width: 100%;
+    position: absolute;
+    top: 50;
+    cursor: pointer;
+    background: linear-gradient(rgba(255, 123, 0, 0.767), #ff9900);
+    opacity: 0;
+    transition: all 1s;
+    margin: auto;
+    box-shadow: 2px 3px 10px 5px rgba(43, 18, 8, 0.678);
+}
+
+.overlay0:hover .overlay{
+    opacity: 1;
+    transform: translateY(-100%);
+}
+
+.overlay0:hover img{
+    transform: scale(1.1);
+}
+
+.rot{
+    transform: rotate(-180deg);
+}
+
+#section3 .btn:hover{
+    background-color: #e7951a;
+}
+
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulsing-image {
+  animation: pulse 2s infinite;
+}
+
+.width_littlesquare {
+  width: 100px;
+  height: 100px;
+}
+
+.gap {
+  row-gap: 3rem;
+}
+
+
+.testimonial-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15%;
+  margin-bottom: 20px;
+}
+
+.carousel-item {
+
+  text-align: center;
+}
+
+.testimonial-text {
+  margin-top: 20px; 
+  margin-bottom: 10px; 
+}
+.testimonial-name {
+  margin-bottom: 0;
+}
+
+.carousel_button button {
+  width: 45px;
+  height: 45px;
+
+}
+
+@media(max-width:860px){
+  .carousel-caption{
+    display: none;
+  }
+}
+
+
