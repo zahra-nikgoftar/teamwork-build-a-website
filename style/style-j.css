@@ -1,6 +1,10 @@
 .menu {
-    background: url(./img-j/zara\ page5.png);
+    background: url(../img-j/zara\ page5.png);
     background-size: cover;
     background-position: center center;
     background-color: transparent;
+}
+
+.navbar-brand {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
