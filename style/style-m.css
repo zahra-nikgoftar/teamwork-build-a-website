@@ -1,6 +1,74 @@
-*, *::before, *::after {
+*{
     box-sizing: border-box
+    
 }
+
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .pulsing-image {
+    animation: pulse 2s infinite;
+  }
+  
+  .width_littlesquare {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .gap {
+    row-gap: 3rem;
+  }
+  
+  
+  .testimonial-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15%;
+    margin-bottom: 30px;
+  }
+  
+  .carousel-item {
+  
+    text-align: center;
+  }
+  
+  .testimonial-text {
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+  }
+  .testimonial-name {
+    margin-bottom: 0;
+  }
+  
+  .carousel_button button {
+    width: 55px;
+    height: 55px;
+  
+  }
+
+  .a_footer a > i {
+    font-size: 0.7rem;
+    padding-right: 4px;
+  }
+  
+  .a_footer a:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+  transition: all 0.5s;
+  }
+  main{
+    background-color: rgb(187, 162, 137)
+  }
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 .menu {
     background: url(../img/mahdi\ sub\ menu\ bg1.jpg) ;
