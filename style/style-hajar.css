@@ -125,6 +125,14 @@ p::selection{
     color: aliceblue;
   }
 
+  .btn-top{
+    transition: all .5s;
+  }
+
+  .btn-top:hover{
+    transform: scale(.80);
+    background-color: #ffc400;
+  }
 
 
 
