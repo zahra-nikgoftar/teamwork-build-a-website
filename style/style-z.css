@@ -1,0 +1,73 @@
+*{
+    font-size: 20px;
+    
+
+}
+img{
+    width: 64px;
+    height: 64px;
+    /* margin-left: -20px; */
+    /* align-items: center; */
+ 
+}
+.background-color-header{
+    background-color: #fdd995;
+}
+.container img{
+    background-color: #fdd995;
+    width: 150px;
+    height: 100px;
+    margin: 20px;
+}
+
+a .botton{
+ width: 100px;
+ height: 50px;
+ background-color: #391e0d;
+}
+header{
+    width: 100vw;
+}
+.background-img{
+   background-image: url("../img/back\ img\ niki.jpg");
+   background-size: contain;
+   background-position-x: right;
+   background-repeat: no-repeat;
+    background-color: #fead2a ;
+    
+    
+    
+}
+main{
+    background-color: #f4d098;
+}
+
+
+.card{
+    background-color: #fdfbf769;
+}
+
+.a_footer a > i {
+    font-size: 0.7rem;
+    padding-right: 4px;
+  }
+  
+  .a_footer a:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+  transition: all 0.5s;
+  }
+
+.signup:hover{
+  background-color: aliceblue;
+  transition: all 0.5s;
+
+}
+
+
+  .back_up{
+    position: fixed;
+    right: 30px;
+    bottom: 15px;
+    z-index: 3;
+  }
