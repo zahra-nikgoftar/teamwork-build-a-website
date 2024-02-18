@@ -58,16 +58,6 @@ main{
   transition: all 0.5s;
   }
 
-.signup:hover{
-  background-color: aliceblue;
-  transition: all 0.5s;
-
-}
 
 
-  .back_up{
-    position: fixed;
-    right: 30px;
-    bottom: 15px;
-    z-index: 3;
-  }
+
