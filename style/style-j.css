@@ -5,6 +5,40 @@
     background-color: transparent;
 }
 
-.navbar-brand {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+.navbar {
+    background-color: rgb(238, 106, 82)
 }
+
+
+.btn-j{
+    background-color: orangered;
+    transition: all .2s;
+    border: none;
+    box-shadow: 0 0 2px #cb6225;
+}
+
+.btn-j:hover{
+    background-color: rgb(237, 192, 182);
+    transform: scale(.95);
+}
+
+.footer-j a > i {
+    font-size: 0.5rem;
+    padding-right: 5px;
+  }
+  
+  .footer-j a:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+  }
+
+  .btn-top{
+    transition: all .5s;
+  }
+
+  .btn-top:hover{
+    transform: scale(.80);
+    background-color: #cb6225;
+  }

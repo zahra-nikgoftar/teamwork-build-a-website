@@ -115,6 +115,26 @@ p::selection{
 }
 
 
+.a_footer a > i {
+    font-size: 0.7rem;
+    padding-right: 4px;
+  }
+  
+  .a_footer a:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+  }
+
+  .btn-top{
+    transition: all .5s;
+  }
+
+  .btn-top:hover{
+    transform: scale(.80);
+    background-color: #ffc400;
+  }
+
+
 
 
 
