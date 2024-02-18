@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #3d5772;
+}
+
+.breadcrumb-item:hover a{
+    color: #3f5f81;
+    text-shadow: 0 0 5px rgb(70, 9, 70);
+}
+
+
+
+.banner{
+    background-image: url(../image-hajar/banner-edite.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.bg{
+    background-color: #f95738;
+    color: #dfddca !important;
+
+}
+
+.pic{
+    transition: all .5s;
+}
+
+.pic:hover{
+    transform: scale(.80);
+}
+
+#section2{
+    padding: 2% 0;
+}
+
+.sh{
+    text-shadow: 0 0 5px rgba(62, 5, 196, 0.651);
+}
+
+.button{
+    background-color: #e7e71c;
+    transition: all .2s;
+}
+
+.button:hover{
+    background-color: #e7e71cbe;
+    transform: scale(.95);
+}
+
+p::selection{
+    background-color: aliceblue;
+    color: rgb(252, 135, 1);
+}
+
+/*  */
+.overlay0{
+    position: relative;
+}
+
+.overlay{
+    width: 100%;
+    position: absolute;
+    top: 50;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 1s;
+    margin: auto;
+    box-shadow: 2px 3px 10px 5px rgba(43, 18, 8, 0.678);
+}
+
+.overlay0:hover .overlay{
+    opacity: 1;
+    transform: translateY(-100%);
+}
+
+.b1{
+    background: linear-gradient(rgb(250, 67, 21), #f8570c);
+}
+
+.b2{
+    background: linear-gradient(rgb(250, 149, 18), #ff8c09);
+}
+
+.b3{
+    background: linear-gradient(rgb(250, 188, 19), #ffb30e);
+}
+
+.b4{
+    background: linear-gradient(rgb(252, 214, 45), #ffcc26);
+}
+
+.overlay0:hover img{
+    transform: scale(1.1);
+}
+
+.rot{
+    transform: rotate(-180deg);
+}
+
+.section3 .btn:hover{
+    background-color: #f77d0bc7;
+    border: 1px solid rgb(245, 107, 57);
+}
+
+.section3 .btn:hover .bi{
+     color: rgb(0, 78, 151) !important;
+}
+
+
+
+
+
+
